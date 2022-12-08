@@ -54,8 +54,8 @@ export default function Home({ data }) {
                     />
                     <div className="card-body gap-0 p-1">
                       <h5 className="card-title">{person.fullName}</h5>
-                      <p className="card-text">Occupation: {person.occupation}</p>
-                      <p className="card-text"><small className="text-muted">Age: {person.age}</small></p>
+                      <p className="card-text text-white">Occupation: {person.occupation}</p>
+                      <p className="card-text text-white">Age: {person.age}</p>
                     </div>
                   </div>
                 </Link> <br />

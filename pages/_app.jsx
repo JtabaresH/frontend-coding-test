@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"></link>
         </Head>
         <nav className="navbar sticky-top bg-dark">
-            <div className="container-fluid d-flex justify-content-between gap-5">
+            <div className="container-fluid d-flex justify-content-between">
                 <Link href={`/profile/new`}>
                     <a
                         className="nav-link text-white"
